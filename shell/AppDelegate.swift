@@ -15,6 +15,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+        // 欢迎页面延时取消
+        Thread.sleep(forTimeInterval: 1.5)
         // Override point for customization after application launch.
         return true
     }

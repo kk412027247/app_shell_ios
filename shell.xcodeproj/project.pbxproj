@@ -7,10 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5EAA53EE217EB5F300162FF6 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EAA53ED217EB5F300162FF6 /* Media.xcassets */; };
+		5EAA54B1217F094300162FF6 /* website in Resources */ = {isa = PBXBuildFile; fileRef = 5EAA54B0217F094300162FF6 /* website */; };
 		9E6277FB21632BC700B18FAB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E6277FA21632BC700B18FAB /* AppDelegate.swift */; };
 		9E6277FD21632BC700B18FAB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E6277FC21632BC700B18FAB /* ViewController.swift */; };
 		9E62780021632BC700B18FAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E6277FE21632BC700B18FAB /* Main.storyboard */; };
-		9E62780221632BC900B18FAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E62780121632BC900B18FAB /* Assets.xcassets */; };
 		9E62780521632BC900B18FAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E62780321632BC900B18FAB /* LaunchScreen.storyboard */; };
 		9E62781021632BC900B18FAB /* shellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E62780F21632BC900B18FAB /* shellTests.swift */; };
 		9E62781B21632BC900B18FAB /* shellUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E62781A21632BC900B18FAB /* shellUITests.swift */; };
@@ -34,11 +35,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5EAA53ED217EB5F300162FF6 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		5EAA54B0217F094300162FF6 /* website */ = {isa = PBXFileReference; lastKnownFileType = folder; path = website; sourceTree = "<group>"; };
 		9E6277F721632BC700B18FAB /* shell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = shell.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E6277FA21632BC700B18FAB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9E6277FC21632BC700B18FAB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9E6277FC21632BC700B18FAB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; wrapsLines = 0; };
 		9E6277FF21632BC700B18FAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9E62780121632BC900B18FAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9E62780421632BC900B18FAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9E62780621632BC900B18FAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9E62780B21632BC900B18FAB /* shellTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = shellTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -77,6 +79,7 @@
 		9E6277EE21632BC700B18FAB = {
 			isa = PBXGroup;
 			children = (
+				5EAA54B0217F094300162FF6 /* website */,
 				9E6277F921632BC700B18FAB /* shell */,
 				9E62780E21632BC900B18FAB /* shellTests */,
 				9E62781921632BC900B18FAB /* shellUITests */,
@@ -100,9 +103,9 @@
 				9E6277FA21632BC700B18FAB /* AppDelegate.swift */,
 				9E6277FC21632BC700B18FAB /* ViewController.swift */,
 				9E6277FE21632BC700B18FAB /* Main.storyboard */,
-				9E62780121632BC900B18FAB /* Assets.xcassets */,
 				9E62780321632BC900B18FAB /* LaunchScreen.storyboard */,
 				9E62780621632BC900B18FAB /* Info.plist */,
+				5EAA53ED217EB5F300162FF6 /* Media.xcassets */,
 			);
 			path = shell;
 			sourceTree = "<group>";
@@ -230,7 +233,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				9E62780521632BC900B18FAB /* LaunchScreen.storyboard in Resources */,
-				9E62780221632BC900B18FAB /* Assets.xcassets in Resources */,
+				5EAA53EE217EB5F300162FF6 /* Media.xcassets in Resources */,
+				5EAA54B1217F094300162FF6 /* website in Resources */,
 				9E62780021632BC700B18FAB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -363,7 +367,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -418,7 +422,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -433,13 +437,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = VGDZGX9ZCY;
+				DEVELOPMENT_TEAM = C73X9YZFPQ;
 				INFOPLIST_FILE = shell/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = org.tmd.shell;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tongex.www;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -451,13 +456,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = VGDZGX9ZCY;
+				DEVELOPMENT_TEAM = C73X9YZFPQ;
 				INFOPLIST_FILE = shell/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = org.tmd.shell;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tongex.www;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
